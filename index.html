@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Hand Of Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js%22%3E"></script>
+    <link href="http://font.googleapis.com/css2?family:Poppins:wght@300;400;500;600;700&display=swap"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="logo.png">SurauCoffeeID</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Add a Product</a></li>
+          <li><a class="active" href="#">Product List</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+      <h1 class="title">Products List</h1>
+      <div class="search">
+        <input class="nama1" type="text" id="username" placeholder="Search Product">
+        <select class="nama2">
+			<option>Search by Status</option>
+			<option>GreenBeans</option>
+			<option>RoastedBeans</option>
+			<option>Tools</option>
+			<option>InBottle</option>
+			<option>Machine</option>
+		</select>
+        <input class="nama3" type="submit" value="FILTER">
+    </div>
+    <div class="tables">
+    <table>
+        <tr id="table">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Product Type</th>
+            <th>Product Price</th>
+            <th>Available</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>42333</td>
+            <td>PremiumPANAMA ESMERALDA GEISHA</td>
+            <td>GreenBeans</td>
+            <td>Rp 480.000</td>
+            <td>40</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>52311</td>
+            <td>ARABICA ETHIOPIA RoastedBeans</td>
+            <td>RoastedBeans</td>
+            <td>Rp 260.000</td>
+            <td>50</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>64214</td>
+            <td>CORONINI RoastedBeans</td>
+            <td>RoastedBeans</td>
+            <td>Rp 180.000</td>
+            <td>50</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>86945</td>
+            <td>Espresso shoot MEGASARI BONDOWOSO</td>
+            <td>RoastedBeans</td>
+            <td>Rp 230.000</td>
+            <td>50</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>75241</td>
+            <td>CHEMEX Coffee Pour Over SET</td>
+            <td>Tools</td>
+            <td>Rp 442..000</td>
+            <td>25</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>98573</td>
+            <td>V60 ManualBrew SET</td>
+            <td>Tools</td>
+            <td>Rp 667.000</td>
+            <td>35</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>24275</td>
+            <td>FlairEspressoMaker manual espresso</td>
+            <td>Tools</td>
+            <td>Rp 1.020.000</td>
+            <td>25</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>83201</td>
+            <td>Hario Syphon Technica TCA-3</td>
+            <td>Tools</td>
+            <td>Rp 1.700.000</td>
+            <td>25</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>20703</td>
+            <td>Tiamo Cold Drip Tower</td>
+            <td>Tools</td>
+            <td>Rp 4.642.000</td>
+            <td>25</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>88510</td>
+            <td>HARIO ManualGrinder</td>
+            <td>Tools</td>
+            <td>Rp 864.000</td>
+            <td>25</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>90242</td>
+            <td>1L COLDBREW SUNDAarumanis</td>
+            <td>InBottle</td>
+            <td>Rp 242.000</td>
+            <td>50</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>21129</td>
+            <td>Coffee Roasting Machine - Roaster Machine</td>
+            <td>Machine</td>
+            <td>Rp 11.780.000</td>
+            <td>5</td>
+            <td>Ready</td>
+            <td>
+                <a class="btn-edit">Edit</a>
+                <a class="btn-delete">Delete</a>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <!-------footer------->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and Ios Mobile Phone</p>
+          <div class="app-logo">
+            <img src="play-store.png">
+            <img src="app-store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="logo.png">
+          <p>Our Purpose Is To Make the Pleasure and Enjoyment of A Cup of Coffee Always Awake</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Follow Us</h3>
+          <ul style="text-align: left; padding-left: 80px;">
+            <li><i class="fa fa-facebook-f fa-2x"></i>SurauCoffeeID</li>
+            <li><i class="fa fa-instagram fa-2x"></i>SurauCoffeeID</li>
+            <li><i class="fa fa-twitter fa-2x"></i>SurauCoffeeID12</li>
+            <li><i class="fa fa-youtube fa-2x"></i>SurauCoffeeID.com</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Our Office</h3>
+          <ul>
+            <li>SURAUCOFFE.ID</li>
+            <li>Kronggen, BRATI 003/003, Purwodadi</li>
+            <li>Center Java, Indonesia</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2021 - Tatas Handharu</p>
+    </div>
+  </div>
+   
+</body>
+</html>
